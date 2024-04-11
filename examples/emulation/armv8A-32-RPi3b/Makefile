@@ -21,7 +21,7 @@ STARTUP            = start
 RAM_BASE_PHYSICAL  = 0x80000
 RAM_SIZE           = 0x4000
 
-LD_FLAGS = --no-warn-rwx-segments
+LD_FLAGS = 
 
 SHELL_ROOT=../../../shell
 -include $(SHELL_ROOT)/Makefile
